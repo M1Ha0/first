@@ -29,4 +29,11 @@ class Chek(val x:Double, left:Double,  right:Double) : Line(left,right){
     }
 }
 //11.3
-//ds
+open class Book(val title:String,val page: Int,val price:Double){
+    fun qfun()=println(price/page)
+
+}
+class BookP(title:String,page:Int,price:Double,val year: Int):Book(title,page,price){
+    val q = price/page
+    fun qp()=println(q-0.2*(2025-year))
+}
