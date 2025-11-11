@@ -29,4 +29,4 @@ class Chek(val x:Double, left:Double,  right:Double) : Line(left,right){
     }
 }
 //11.3
-
+//ds
