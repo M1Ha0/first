@@ -37,4 +37,3 @@ class BookP(title:String,page:Int,price:Double,val year: Int):Book(title,page,pr
     val q = price/page
     fun qp()=println(q-0.2*(2025-year))
 }
-//asd
